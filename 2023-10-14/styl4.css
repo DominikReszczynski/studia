@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color:#000000;
+    font-size: 25px;
+}
+/* jak opiosać class w CSS */
+.link1 { /* dowolny znacznik z class link1*/
+    background-color: #00cc00;
+}
+/* selektor.nazwaclass a.link1 tylko znaczniki a z class link1*/

@@ -1,0 +1,28 @@
+/* selektor - BEZ <> {  opis css}*/
+/* Wszyskie h2 na stronie */
+
+h2 {
+    text-align: center; /* TYLKO DLA ELEMETÓW BLOKOWYCH*/
+    font-weight: 100; /* waga czcionki od 100 - cienkie 900 - bold */
+    font-family: 'Times New Roman', Times, serif; /* zmiana czcionki*/
+    /* CSS kolor: nazwa HEX rgb(255,0,0)*/
+    color:rgb(255,0,0); /* #ff0000*/
+    background: rgb(80, 48, 86);
+    background: linear-gradient(#00ff00, #0000ff, #00ffffff);
+    /* interpretacja z góry do dołu napisujemy własności CSS*/
+    /* Cień dla text*/
+    text-shadow: 0 2px 2px #000000;
+    /* prawo dol rozycie kolor*/
+    /* dekoracje tesktu - przekreślenie podreslnie itp.*/
+    text-decoration: line-through;
+    text-decoration: underline; /* nadpisanie i nie działa przekreslnie*/
+    text-decoration: line-through underline; /* OBA NARAZ !*/
+    font-style: italic; /* kursywa*/
+    font-size: 25px; /* wiekość czcionki jednostka px inne jednoski*/
+
+}
+
+a {
+    text-align: center; /* nie działa bo nie ma szerkości*/
+    text-decoration: none;
+}

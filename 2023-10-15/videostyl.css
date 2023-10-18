@@ -1,0 +1,4 @@
+video {
+    /*width: 600px;  szerkość w px - stała */
+    width: 80%; /* szekość w % rodzica */
+}

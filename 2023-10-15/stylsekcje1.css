@@ -1,0 +1,8 @@
+main {
+    background-color: #00cc00;
+    height: 200px;
+    /* jeśli wykość nie miesci zawartości */
+    overflow: hidden; 
+    overflow-y:auto;
+    /* wykość w % jeśli rodziocem jest body nie działa */
+}

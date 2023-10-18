@@ -1,0 +1,19 @@
+.d1 {
+    background-color: blueviolet;
+    height: 50px;
+    width: 50%;
+}
+
+.d2 {
+    background-color: #cc00ff;
+    height: 50%; /* 50% rodzica czyli 200 * 0.5 */
+}
+
+header {
+    height: 200px;
+    background-color: rgb(83, 83, 83);
+    width: 70%;
+}
+/* szekość - % wg rodzica sekcje DOMYŚLNIE UKŁADAJĄ SIE POD SOBĄ 
+szekość nie ma znaczenia dla takiego układu 
+jeśli znajdzie float \: left - NIE CZYTAJ !!! */
